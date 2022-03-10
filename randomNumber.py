@@ -1,6 +1,6 @@
 import random
 
-caterpilar = input("Would you like tot chose the password? (y/n): ")
+caterpilar = input("Would you like to chose the password? (y/n): ")
 
 if caterpilar == "y":
     password = int(input("Okay, what should it be?: "))
