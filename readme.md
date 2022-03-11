@@ -1,5 +1,15 @@
-#This is a brute-force password breaker pythons script
+# Table of Contents
+1. [fourLetterGuesser](#fourLetterGuesser.py)
+2. [passwordHack.py](#passwordHack.py)
+3. [randomNumber.py](#randomnumberpy)
 
-You can either chose a 4 digit long password or let the computer generate one.
-It will then make a random 4 digit long sequence of letters to try and match it.
-In my experience, it takes anywhere from 4 seconds to 2 minutes for it to get it right.
+<br>
+
+# fourLetterGuesser.py
+Gets a random four digit long string that is only lowercase letters. Then attemps to guess it by randomly generating antoher four digit long string. It will keep generating strings until the guess is equal to the originally generated passsword.
+
+Keeps track of amount of guesses and time from when it started to when it ends in seconds.
+
+# passwordHack.py
+
+# randomNumber.py
