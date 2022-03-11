@@ -2,7 +2,7 @@ import random
 import string
 import time
 
-
+# Password Generator
 customPasswordPrompt = input("Would you like to chose a password? y/n: ")
 
 if customPasswordPrompt == "y":
@@ -18,6 +18,7 @@ else:
 
 print(f"The password is {password}")
 
+# Password Guesser
 digit1 = str
 digit2 = str
 digit3 = str
@@ -39,5 +40,5 @@ endTime = time.time()
 
 totalTime = int(endTime) - int(startTime)
 
-print("\nThe password has been succesfully guessed. It took", trys, "trys and", totalTime, "seconds to guess the password.")
+print("\nThe password has been succesfully guessed. \nIt took", trys, "trys and", totalTime, "seconds to guess the password.")
 print("That means the computer tested", int(trys/totalTime), "passwords per second!")
