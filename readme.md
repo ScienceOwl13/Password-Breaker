@@ -11,5 +11,9 @@ Gets a random four digit long string that is only lowercase letters. Then attemp
 Keeps track of amount of guesses and time from when it started to when it ends in seconds.
 
 # passwordHack.py
+This is definately the most complicated "password breaker" script.
+
+## How it works
+
 
 # randomNumber.py

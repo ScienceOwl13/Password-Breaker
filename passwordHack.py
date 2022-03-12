@@ -40,10 +40,12 @@ def passwordGuess():
 passwordGen()
 
 guess = str
+guess2 = str
 
 input("Are you ready to have the computer find your password? ")
 
 startTime = time.time()
+
 
 while guess != password:
     passwordGuess()
